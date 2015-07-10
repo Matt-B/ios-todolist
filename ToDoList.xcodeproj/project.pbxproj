@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C9449EFE1B4D5F0300B2D0FA /* AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9449EFD1B4D5F0300B2D0FA /* AddToDoItemViewController.m */; };
 		C9449F011B4D5FC200B2D0FA /* ToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9449F001B4D5FC200B2D0FA /* ToDoListTableViewController.m */; };
+		C99947831B4E8F7C00F49879 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C99947821B4E8F7C00F49879 /* ToDoItem.m */; };
 		C9DE31031B4ACC5F0036DF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE31021B4ACC5F0036DF19 /* main.m */; };
 		C9DE31061B4ACC5F0036DF19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DE31051B4ACC5F0036DF19 /* AppDelegate.m */; };
 		C9DE310C1B4ACC5F0036DF19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DE310A1B4ACC5F0036DF19 /* Main.storyboard */; };
@@ -32,6 +33,8 @@
 		C9449EFD1B4D5F0300B2D0FA /* AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddToDoItemViewController.m; path = ../AddToDoItemViewController.m; sourceTree = "<group>"; };
 		C9449EFF1B4D5FC200B2D0FA /* ToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoListTableViewController.h; sourceTree = SOURCE_ROOT; };
 		C9449F001B4D5FC200B2D0FA /* ToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoListTableViewController.m; sourceTree = SOURCE_ROOT; };
+		C99947811B4E8F7C00F49879 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		C99947821B4E8F7C00F49879 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 		C9DE30FD1B4ACC5F0036DF19 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DE31011B4ACC5F0036DF19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DE31021B4ACC5F0036DF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 		C9DE30F41B4ACC5F0036DF19 = {
 			isa = PBXGroup;
 			children = (
+				C99947811B4E8F7C00F49879 /* ToDoItem.h */,
+				C99947821B4E8F7C00F49879 /* ToDoItem.m */,
 				C9DE30FF1B4ACC5F0036DF19 /* ToDoList */,
 				C9DE31191B4ACC5F0036DF19 /* ToDoListTests */,
 				C9DE30FE1B4ACC5F0036DF19 /* Products */,
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9DE31061B4ACC5F0036DF19 /* AppDelegate.m in Sources */,
+				C99947831B4E8F7C00F49879 /* ToDoItem.m in Sources */,
 				C9449F011B4D5FC200B2D0FA /* ToDoListTableViewController.m in Sources */,
 				C9DE31031B4ACC5F0036DF19 /* main.m in Sources */,
 				C9449EFE1B4D5F0300B2D0FA /* AddToDoItemViewController.m in Sources */,
