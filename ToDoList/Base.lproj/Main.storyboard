@@ -45,6 +45,10 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="saveButton" destination="lFh-fr-aoe" id="J36-oK-mTb"/>
+                        <outlet property="textField" destination="cgN-OH-Gn2" id="X5Q-1L-776"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="67n-AQ-6s3" userLabel="Exit" sceneMemberID="exit"/>
